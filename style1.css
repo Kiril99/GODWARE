@@ -1,0 +1,136 @@
+body{
+	font-family:'Nanum Gothic', sans-serif;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+header{
+	margin: 0 auto;
+	background-color: #ff5c5c;
+	border-top:13px solid #333;
+	border-bottom: 13px solid #333;
+	height: 20vh;
+	font-weight: bold;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+.logoName{
+	margin-top: 20px;
+}
+.logoName h1{
+	margin-bottom: 0;
+	color: white;
+	font-size: 30px;
+}
+.logoName p{
+	margin-top: 0;
+	color: white;
+}
+.ul{
+	margin-top: 20px;
+}
+.ul ul{
+	display: flex;
+}
+.ul li{
+	margin: 20px;
+	list-style: none;
+}
+.ul li a:hover{
+	color:black;
+	
+}
+.ul, li, a{
+	color:white;
+	text-decoration: none;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.black{
+	text-align: center;	
+}
+.black img{
+	border:10px solid #00000030;
+	margin-top: 70px;
+	position:relative;
+	width:70%;
+}
+.hp{
+	line-height: 1.6;
+	width: 60%;
+	text-align: center;
+}
+
+
+
+footer{
+	margin-top:60px;
+	background-image: url(img/background.jpg ); 
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	
+
+}
+footer p{
+	font-size: 14px;
+}
+footer h3{
+	color: white;
+}
+.bl1{
+	width:21%;
+	margin:30px 28px 0px 28px;
+
+}
+.img img{
+	float: left;
+}
+.img p{
+	font-size: 14px;
+	line-height: 1.6;
+	color: white;
+	margin-left: 80px;
+}
+span{
+	color: #a1a1a1;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.bl2{
+	margin-top: 30px;
+	width: 21%
+}
+.bl2 a{
+	text-decoration: none;
+	color: #e05555;
+	width: 30%;
+}
+.bl2 p{
+	margin:0;
+	color: white;
+}
+.bl3{
+	margin-top: 20px;
+	width: 21%;
+}
+.bl3 p{
+	color: white;
+	line-height: 1.6;
+}
+.bl3 h1{
+	font-weight: bold;
+	color: white;
+	margin-bottom: 0;
+
+}
+.p{
+	margin-top: 0;
+}
